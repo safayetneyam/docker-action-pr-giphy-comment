@@ -13,7 +13,7 @@ jobs:
 
         steps:
             - name: "Checkout Repository"
-              run: actions/checkout@v6
+              uses: actions/checkout@v6
 
             - name: Post PR Comment
               uses: ./
